@@ -30,7 +30,9 @@ The **UA Ontology Stack** leverages five **Core Ontologies** to model fundamenta
 - 👤 **Agent**  
 - ⏳ **Event**  
 - 📏 **Measurement**  
-- 🔗 **Provenance**  
+- 🔗 **Provenance**
+- 🗺️ **Location**
+- 🛒 **Ownership**
 
 ---
 
