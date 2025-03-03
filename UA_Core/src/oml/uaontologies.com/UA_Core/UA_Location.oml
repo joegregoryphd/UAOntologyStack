@@ -1,0 +1,71 @@
+@dc:creator "SIE Disruption Lab"
+@dc:contributor "Joe Gregory"
+@dc:description ""
+@dc:hasVersion "0.1"
+vocabulary <http://uaontologies.com/UA_Core/UA_Location#> as UA_Location {
+	
+	////////////////////////////////////////////////////////////////////////////////////
+	
+	/////// Vocabulary Imports ///////
+	
+	
+	// Import standard vocabularies	
+	
+    extends <http://purl.org/dc/elements/1.1/> as dc
+    extends <http://www.w3.org/2000/01/rdf-schema#> as rdfs
+    //extends <http://www.w3.org/2001/XMLSchema#> as xsd
+    
+    // Import relevant vocabularies
+    
+    extends <http://uaontologies.com/UA_Foundation/UA_Foundation#> as foundation
+	
+	//extends <http://uaontologies.com/UA_Core/UA_Information#> as info
+	//extends <http://uaontologies.com/UA_Core/UA_Event#> as event
+	//extends <http://uaontologies.com/UA_Core/UA_Agent#> as agent
+	//extends <http://uaontologies.com/UA_Core/UA_Measurement#> as meas
+	
+	
+	///////////////////////////////////////////////////////////////////////////////////
+	
+	/////// Vocabulary Definitions ///////
+	
+	///// Aspects
+		
+	
+	
+	///// Concepts
+	
+	
+	
+	///// Relations
+	
+	@rdfs:label "Located At"
+	@dc:description "[=LocatedAt=] is a "
+	relation entity LocatedAt [
+		from foundation:IndependentContinuant
+		to foundation:Site
+		@rdfs:label "located at"
+		forward locatedAt
+		@rdfs:label "is location of"
+		reverse isLocationOf
+		asymmetric
+		irreflexive
+	]
+
+	
+	
+	
+	///// Scalar Properties
+	
+
+	
+	
+	///// Redefined Concepts
+	
+	
+	
+	///// Rules
+	
+
+	
+}
