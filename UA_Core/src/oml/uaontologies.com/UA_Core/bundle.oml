@@ -1,11 +1,13 @@
 vocabulary bundle <http://uaontologies.com/UA_Core/bundle#> as ^bundle {
 	
 	extends <http://uaontologies.com/UA_Foundation/bundle#>
-	
-	includes <http://uaontologies.com/UA_Core/UA_Information#>
-	includes <http://uaontologies.com/UA_Core/UA_Event#>
+			
 	includes <http://uaontologies.com/UA_Core/UA_Agent#>
+	includes <http://uaontologies.com/UA_Core/UA_Event#>
+	includes <http://uaontologies.com/UA_Core/UA_Information#>
+	includes <http://uaontologies.com/UA_Core/UA_Location#>
 	includes <http://uaontologies.com/UA_Core/UA_Measurement#>
+	includes <http://uaontologies.com/UA_Core/UA_Ownership#>
 	includes <http://uaontologies.com/UA_Core/UA_Provenance#>
 	
 }

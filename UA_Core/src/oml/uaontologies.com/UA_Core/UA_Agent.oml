@@ -155,7 +155,7 @@ vocabulary <http://uaontologies.com/UA_Core/UA_Agent#> as UA_Agent {
 		from foundation:Role
 		to Organization
 		@rdfs:label "has organizational context"
-		forward hasOrganziationalContext
+		forward hasOrganizationalContext
 		@rdfs:label "is organizational context of"
 		reverse isOrganizationalContextOf
 		asymmetric
