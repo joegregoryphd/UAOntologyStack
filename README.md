@@ -24,7 +24,7 @@ The **UA Foundation Ontology** is rooted in **Basic Formal Ontology (BFO)** and 
 
 ## 🔹 UA Core Ontologies  
 
-The **UA Ontology Stack** leverages five **Core Ontologies** to model fundamental concepts:  
+The **UA Ontology Stack** leverages seven **Core Ontologies** to model fundamental concepts:  
 
 - 📄 **Information**  
 - 👤 **Agent**  
