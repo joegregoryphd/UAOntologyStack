@@ -38,6 +38,13 @@ vocabulary <http://uaontologies.com/UA_Domain/UA_Test#> as UA_Test {
 	
 	///// Concepts
 	
+	@rdfs:label "Test Strategy"
+	@dc:description "A [=Test Strategy=] is a..."
+	concept TestStrategy < agent:ManagedProcess [
+		restricts some foundation:contains to Test
+		restricts all foundation:contains to Test
+	]
+	
 	@rdfs:label "Test"
 	@dc:description "A [=Test=] is a..."
 	concept Test < agent:ManagedProcess, req:VerificationMethod [
@@ -105,8 +112,8 @@ vocabulary <http://uaontologies.com/UA_Domain/UA_Test#> as UA_Test {
 	@rdfs:label "Boolean Test Result"
 	@dc:description "A [=BooleanTestResult=] is a..."
 	concept BooleanTestResult < info:DescriptiveInformationEntity [
-		restricts all info:describes to info:PrescriptiveInformationEntity
-		restricts some info:describes to info:PrescriptiveInformationEntity
+		restricts all info:describes to Test
+		restricts some info:describes to Test
 	]
 	
 	@rdfs:label "Site Data"
